@@ -7,12 +7,10 @@
 
 4. Open the Project in VS Code: Launch Visual Studio Code, click file → open folder then select the extracted project folder after that click open.
 
-5. Open the Integrated Terminal: Click Terminal from the top menu then select New Terminal. A terminal window will appear at the bottom of the editor.
+5. Install Project Dependencies: In the terminal, type: npm install (This command will download and install all required dependencies listed in the project's package.json file.)
 
-6. Install Project Dependencies: In the terminal, type: npm install (This command will download and install all required dependencies listed in the project's package.json file.)
+6. Add Your Gemini API Key: Open the .env file located in the project folder then find the following line: GEMINI_API_KEY=your_api_key_here after that replace your_api_key_here with your actual Gemini API key. If you do not yet have an API key, create one through Google AI Studio: https://aistudio.google.com
 
-7. Add Your Gemini API Key: Open the .env file located in the project folder then find the following line: GEMINI_API_KEY=your_api_key_here after that replace your_api_key_here with your actual Gemini API key. If you do not yet have an API key, create one through Google AI Studio: https://aistudio.google.com
+7. Run the Server: Start the application server by running one of the following commands in the terminal: npm start or node server.js (The server will start and run locally on your machine.)
 
-8. Run the Server: Start the application server by running one of the following commands in the terminal: npm start or node server.js (The server will start and run locally on your machine.)
-
-9. Open the Application in Your Browser: Once the server is running: Open any web browser then navigate to: http://localhost:3000 (The application should now be accessible.)
+8. Open the Application in Your Browser: Once the server is running: Open any web browser then navigate to: http://localhost:3000 (The application should now be accessible.)
